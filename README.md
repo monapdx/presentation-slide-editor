@@ -1,147 +1,139 @@
-# 🚀 Presentation Slide Editor
+# Presentation Slide Editor
 
-> One-sentence value proposition.\
-> What this tool does and who it's for --- in plain English.
+A lightweight, browser-based slide editor built with React and Vite.
+Design slides visually in your browser and export them as `.pptx` files — no backend required.
 
-------------------------------------------------------------------------
+Live Demo: https://monapdx.github.io/presentation-slide-editor/
 
-## 🖼 Demo
+---
 
-🔗 Live Demo: https://monapdx.github.io/presentation-slide-editor
+## ✨ Features
 
-📸 Screenshot:
+* Drag-and-position slide elements
+* Canvas-based editing interface
+* Client-side PowerPoint (.pptx) export
+* No server or database required
+* Deployable as a static site (GitHub Pages ready)
 
-![App Screenshot](https://raw.githubusercontent.com/monapdx/presentation-slide-editor/refs/heads/main/screenshot.png)
+---
 
-![App Screenshot](https://raw.githubusercontent.com/monapdx/presentation-slide-editor/refs/heads/main/template-screenshot.png)
+## 🧠 Tech Stack
 
-------------------------------------------------------------------------
+* React
+* Vite
+* JavaScript
+* Client-side PPTX generation
+* GitHub Pages deployment
 
-## 🛠 Tech Stack
+---
 
--   ⚡ Vite
--   ⚛ React
--   🎨 Tailwind CSS
--   🐍 Python (if applicable)
--   🖥 Electron (if applicable)
+## 🚀 Getting Started (Local Development)
 
-------------------------------------------------------------------------
+Clone the repository:
 
-## 📦 Installation
-
-Clone the repo:
-
-``` bash
-git clone https://github.com/yourusername/project-name.git
-cd project-name
+```bash
+git clone https://github.com/monapdx/presentation-slide-editor.git
+cd presentation-slide-editor
 ```
 
 Install dependencies:
 
-``` bash
+```bash
 npm install
 ```
 
-Run locally:
+Start the development server:
 
-``` bash
+```bash
 npm run dev
 ```
 
-Build for production:
+Open the local URL shown in your terminal.
 
-``` bash
+---
+
+## 🏗 Build for Production
+
+```bash
 npm run build
 ```
 
-------------------------------------------------------------------------
+The production-ready output will be generated in the `dist/` directory.
 
-## 🗂 Project Structure
+---
 
-    project-name/
-    │
-    ├── public/
-    ├── src/
-    │   ├── components/
-    │   ├── assets/
-    │   ├── App.jsx
-    │   └── main.jsx
-    │
-    ├── index.html
-    ├── vite.config.js
-    └── package.json
+## 🌐 Deployment (GitHub Pages)
 
-------------------------------------------------------------------------
+This project is configured for GitHub Pages using GitHub Actions.
 
-## 🎯 Features
+Key configuration:
 
--   🔥 Feature 1
--   🎨 Feature 2
--   📊 Feature 3
--   🧩 Modular architecture
--   💾 Offline-friendly (if applicable)
--   📁 Works with exported data (if applicable)
+```js
+// vite.config.js
+base: "/presentation-slide-editor/"
+```
 
-------------------------------------------------------------------------
+When pushing to `main`, the GitHub Action builds the project and deploys the contents of `dist/` to GitHub Pages automatically.
 
-## 🧠 Use Cases
+Live URL format:
 
--   Personal data visualization
--   Creative portfolio tools
--   Static replicas of platform data
--   Interactive slide building
--   Pixel-art experiments
--   Memory archiving
+```
+https://<username>.github.io/presentation-slide-editor/
+```
 
-------------------------------------------------------------------------
+---
 
-## 🛣 Roadmap
+## 📦 Project Structure
 
--   [ ] Add export to PDF
--   [ ] Improve mobile responsiveness
--   [ ] Add theme switcher
--   [ ] Package as Windows .exe
--   [ ] Publish to Product Hunt
+```
+src/
+ ├── App.jsx
+ ├── CanvasEditor.jsx
+ ├── main.jsx
+ ├── store.js
+ ├── exportPptx.js
+ ├── useImage.js
+ └── styles.css
 
-------------------------------------------------------------------------
+index.html
+vite.config.js
+package.json
+```
 
-## 🤝 Contributing
+---
 
-Pull requests are welcome.
+## 🎯 Project Goals
 
-If you'd like to: - Suggest features - Improve documentation - Refactor
-code - Make it more beginner-friendly
+This project demonstrates:
 
-Open an issue first and let's discuss it.
+* Client-side document generation
+* Canvas-style editing interfaces
+* Static-site deployment workflows
+* Modern React + Vite setup
+* Browser-based creative tooling
 
-------------------------------------------------------------------------
+---
+
+## 🛠 Future Improvements
+
+* Multi-slide management
+* Text styling controls
+* Image upload & resizing tools
+* Slide templates
+* Autosave functionality
+* Drag-and-drop UI refinements
+
+---
 
 ## 📄 License
 
-MIT License\
-Free to use, modify, and remix.
+MIT License.
 
-------------------------------------------------------------------------
+---
 
-## 💡 Philosophy (Optional Section)
+## 🙌 Contributions
 
-This project was built around:
+Pull requests and suggestions are welcome.
+If you build something interesting with it, feel free to share.
 
--   ✊ Digital ownership
--   🧰 Builder empowerment
--   🎨 Creative coding
--   🧠 Learning by shipping
--   🚫 Reducing dependency on big platforms
-
-------------------------------------------------------------------------
-
-## 🌎 Connect
-
--   GitHub: https://github.com/yourusername
--   Website: yoursite.com
--   Product Hunt: (if applicable)
--   Twitter/X: (if applicable)
-
-------------------------------------------------------------------------
-
-# ⭐ If you find this useful, star the repo!
+---
