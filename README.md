@@ -5,22 +5,6 @@
 
 ------------------------------------------------------------------------
 
-## ✨ Overview
-
-**Project Name** is a \[type of app: React / Vite / Streamlit / CLI /
-static tool\] that helps you:
-
--   ✅ Do this
--   ✅ Visualize that
--   ✅ Automate something useful
--   ✅ Own your data / streamline workflow / build faster
-
-Built for: - 🧠 Creative coders - 🛠 Non-traditional builders - 📁
-Digital sovereignty nerds - 🎨 Designers who vibe-code - 🪟
-Windows-friendly workflows
-
-------------------------------------------------------------------------
-
 ## 🖼 Demo
 
 🔗 Live Demo: https://monapdx.github.io/presentation-slide-editor
